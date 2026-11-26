@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pembayaran - PIXIEQUE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+    <a href="index.html" class="brand">
+        <h1 class="logo">PIXIEQUE</h1>
+        <p>Make Every Moment Special</p>
+    </a>
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="toko.html">Toko</a>
+        <a href="tentang.html">Tentang Kami</a>
+        <a href="kontak.html">Kontak</a>
+        <a href="keranjang.html">Keranjang</a>
+        <a href="pesanan.html">Pesanan Saya</a>
+    </nav>
+</header>
+
+<main class="checkout-page">
+    <span class="eyebrow">SECURE PAYMENT</span>
+    <h2>Metode Pembayaran</h2>
+    <p>Pilih metode pembayaran yang tersedia.</p>
+
+    <div class="checkout-form">
+        <div id="payment-summary"></div>
+
+        <form id="payment-form">
+            <label>
+                <input type="radio" name="metode" value="Transfer Bank" required>
+                Transfer Bank
+            </label>
+
+            <label>
+                <input type="radio" name="metode" value="QRIS">
+                QRIS
+            </label>
+
+            <label>
+                <input type="radio" name="metode" value="COD">
+                COD (Bayar di Tempat)
+            </label>
+
+            <button type="submit" class="btn">Konfirmasi Pesanan</button>
+        </form>
+    </div>
+</main>
+
+<footer>
+    <p>© 2026 PIXIEQUE | Make Every Moment Special</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
